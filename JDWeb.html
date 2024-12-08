@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaed Delosa | Content Writer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> <!-- Importing Google Fonts -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif; /* Using Roboto for body text */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #121212; /* Dark background */
+            color: #e0e0e0; /* Light text color */
+            font-weight: bold; /* Bold text for all body content */
+        }
+
+        header {
+            background: #1e1e1e; /* Darker header */
+            color: #ffffff;
+            text-align: center;
+            padding: 50px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+        }
+
+        h1 {
+            font-family: "Montserrat", sans-serif; /* Using Montserrat for the name */
+            font-size: 36px; /* Adjust size as needed */
+        }
+
+        h2 {
+            font-family: "Montserrat", sans-serif; /* Using Montserrat for subtitle */
+            font-size: 24px; /* Adjust size as needed */
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #b3b3b3; /* Lighter link color */
+            text-decoration: none;
+            transition: color 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        nav ul li a:hover {
+            color: #ff4444; /* Red accent on hover */
+        }
+
+        .divider {
+            width: 80%; /* Width of the divider */
+            height: 4px; /* Height of the divider (thicker) */
+            background-color: #ff4444; /* Red color for the divider */
+            margin: 20px auto; /* Centering the divider */
+        }
+
+        section {
+            padding: 50px 20px;
+            text-align: center; /* Centering text in sections */
+        }
+
+        #about {
+            background-color: #1e1e1e; /* Dark background for about section */
+        }
+
+        #portfolio {
+            background-color: #2a2a2a; /* Slightly lighter dark background for portfolio section */
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #1e1e1e; /* Dark footer */
+            color: #b3b3b3; /* Lighter footer text */
+        }
+
+        h3 {
+            color: #ff4444; /* Red accent for section headings */
+        }
+
+        p {
+            font-weight: bold; /* Bold text for paragraphs (optional since body is already bold) */
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: auto;
+        }
+
+        form label {
+            margin-top: 10px;
+        }
+
+        form input, form textarea {
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #444; /* Dark border */
+            background-color: #333; /* Dark input background */
+            color: #ffffff; /* Light text in inputs */
+        }
+
+        form button {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #ff4444; /* Red button */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        form button:hover {
+            background-color: #ff6666; /* Lighter red on hover */
+        }
+
+        .work-button {
+            display: inline-block; 
+            padding: 10px 20px; 
+            margin-top: 15px; 
+            background-color: #ff4444; /* Red accent for the button */
+            color: white; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        .work-button:hover {
+            background-color: #ff6666; /* Slightly lighter red on hover */
+        }
+        
+    </style>
+</head>
+<body>
+    <header id="home">
+        <h1>Jaed Delosa</h1>
+        <h2>Content Writer</h2>
+
+        <nav>
+             <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+             </ul>
+         </nav>
+
+         <!-- Divider below navigation -->
+         <div class="divider"></div>
+    </header>
+
+    <section id="about">
+         <h3>About Me</h3>
+         <p>I am a seasoned content writer with years of extensive experience in creating engaging and impactful content across various platforms. My expertise includes blog posts, SEO articles, social media campaigns, and website copy. I am passionate about storytelling and committed to delivering high-quality content that resonates with audiences.</p>
+    </section>
+
+    <section id="portfolio">
+         <h3>My Work</h3>
+
+         <!-- Button to redirect to your official website -->
+         <a href="https://jaedd.my.canva.site/" class="work-button">Visit My Official Website</a>
+    </section>
+
+    <section id="contact">
+         <h3>Contact Me</h3>
+         <form action="#" method="post">
+             <label for="name">Name:</label>
+             <input type="text" id="name" name="name" required>
+
+             <label for="email">Email:</label>
+             <input type="email" id="email" name="email" required>
+
+             <label for="message">Message:</label>
+             <textarea id="message" name="message" required></textarea>
+
+             <button type="submit">Send Message</button>
+         </form>
+    </section>
+
+    <footer>
+         <p>&copy; 2024 Jaed Delosa. All rights reserved.</p>
+    </footer>
+
+    <!-- Optional JavaScript for smooth scrolling (if needed) -->
+    <!-- You can add any JS here if you want to enhance functionality -->
+</body>
+</html>
